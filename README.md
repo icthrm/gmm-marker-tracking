@@ -14,7 +14,7 @@ make
 
 There will be execution named gmm-marker-tracking and drawmatch in gmm-marker-tracking-bound-test/build/bin
 
-Download our test dataset and copy the gmm-marker-tracking&drawmatch into the directory. Run the following instruction:
+Download our test dataset (V4B_G1_Tilt2.tar.gz from ear.ict.ac.cn) and copy the gmm-marker-tracking&drawmatch into the directory. Run the following instruction:
 
 ./gmm-marker-tracking -i V4B_G1_Tilt2.mrc -a V4B_G1_Tilt2.rawtlt -d -1 -o V4B_G1_Tilt2.xf -n V4B_G1_Tilt2.tlt
  ./drawmatch -i V4B_G1_Tilt2.mrc -a V4B_G1_Tilt2.rawtlt -d -1 -o V4B_G1_Tilt2.xf -n V4B_G1_Tilt2.tlt
