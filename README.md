@@ -25,5 +25,6 @@ Gaussian mixture model based fiducial marker tracking serves as the key code in 
 
 If the reader run as "markerauto -i V4B_G1_Tilt2.mrc -a V4B_G1_Tilt2.rawtlt -d -1 -o V4B_G1_Tilt2.xf -n V4B_G1_Tilt2.tlt", markerauto1.6+ will use the old fasion to process the data. If the reader run as "markerauto -i V4B_G1_Tilt2.mrc -a V4B_G1_Tilt2.rawtlt -d -1 -o V4B_G1_Tilt2.xf -n V4B_G1_Tilt2.tlt -t", markerauto1.6+ will use the Gaussian mixture model based fiducial marker tracking to process the data, which is much fater than the old fashion. The generated xxx.xf file can be used to general full stack: AuTom "mrcstack -i xxx.mrc -x xxx.xf -o xxx_fin.mrc" or IMOD "newstack -input xxx.mrc -xf xxx.xf -output xxx_fin.mrc".
 
-[1] Han, R., Wang, L., Liu, Z., Sun, F., Zhang, F., 2015. A novel fully automatic scheme for fiducial marker-based alignment in electron tomography. J. Struct. Biol. 192 (3), 403 – 417.
-[2] Han, R. et al. AuTom: a novel automatic platform for electron tomography reconstruction. J. Struct. Biol. in press
+[1] Renmin Han, Fa Zhang, Xiaohua Wan, Jose-Jesus Fernández, Fei Sun, Zhiyong Liu. (2014) A marker-free automatic alignment method based on scale-invariant features. Journal of Structural Biology, 186 (1), 167-180.
+[2] Renmin Han#, Xiaohua Wan#, Zihao Wang, Yu Hao, Jingrong Zhang, Yu Chen, Xin Gao, Zhiyong Liu, Fei Ren, Fei Sun, Fa Zhang. (2017) AuTom: A novel automatic platform for electron tomography reconstruction. Journal of Structural Biology, 199(3), 196-208.
+[3] Renmin Han, Fa Zhang, Xin Gao. (2018) A fast fiducial marker tracking model for fully automatic alignment in electron tomography. Bioinformatics, 34(5), 853-863.
